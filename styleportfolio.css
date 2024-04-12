@@ -2,6 +2,13 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -59,7 +66,7 @@ footer {
     background-color: black;
     color: white;
     padding: 10px;
-
+    margin-top: auto;
 }
 
 .footer-social ul {
